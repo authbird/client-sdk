@@ -14,7 +14,8 @@ const settings = {
     getEncryptionKey: '/encryption/key',
     session: '/session'
   },
-  maxGetSessionDataRetryCount: 20
+  maxGetSessionDataRetryCount: 20,
+  testing: 1
 }
 
 const states: { credentials: CredentialsInterface, initialized: boolean } = {
