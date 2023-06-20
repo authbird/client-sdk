@@ -6,6 +6,8 @@ import {SessionUserDataInterface} from "./types/session-user-data.interface";
 // @ts-ignore
 import JSCrypto from "jscrypto";
 
+// Test github actions pipeline
+
 const settings = {
   host: 'https://api.authbird.com',
   api: {
