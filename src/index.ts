@@ -58,7 +58,7 @@ export async function init(initData: CredentialsInterface): Promise<boolean> {
   return true;
 }
 
-export const session: { [functionName: string]: Function } = {
+export const session: { create: Function, getUserData: Function, delete: Function } = {
   create: async (): Promise<SessionResponseInterface> => {
     if (!states.initialized) {
       return Promise.reject('SDK not initialized. Please call the "init" function first');
@@ -121,7 +121,7 @@ export const session: { [functionName: string]: Function } = {
   }
 }
 
-export const browser: { [functionName: string]: Function } = {
+export const browser: { loginUser: Function } = {
   loginUser: async (provider: string): Promise<SessionUserDataInterface> => {
     const newSession = await session.create();
 
