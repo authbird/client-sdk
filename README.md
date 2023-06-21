@@ -1,14 +1,14 @@
 <h1 align="center">
     <b>
-        <a href="https://axios-http.com">
+        <a href="https://axios-http.com" target="_blank">
             <img src="assets/authbird_logo.png" alt="AuthBird Logo"/>
         </a>
     </b>
 </h1>
 
 <p align="center">
-    <a href="https://authbird.com/"><b>Website</b></a> &nbsp; | &nbsp;
-    <a href="https://docs.authbird.com"><b>Documentation</b></a>
+    <a href="https://authbird.com/" target="_blank"><b>Website</b></a> &nbsp; | &nbsp;
+    <a href="https://docs.authbird.com" target="_blank"><b>Documentation</b></a>
 </p>
 
 <div align="center">
