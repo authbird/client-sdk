@@ -1,7 +1,7 @@
 <h1 align="center">
     <b>
         <a href="https://axios-http.com">
-            <img src="assets/authbird-logo.png" alt="AuthBird Logo"/>
+            <img src="assets/authbird_logo.png" alt="AuthBird Logo"/>
         </a>
     </b>
 </h1>
@@ -12,8 +12,10 @@
 </p>
 
 <div align="center">
+
 [![npm version](https://img.shields.io/npm/v/@authbird/client-sdk.svg?style=flat-square)](https://www.npmjs.org/package/@authbird/client-sdk)
 [![Build status](https://img.shields.io/github/actions/workflow/status/authbird/client-sdk/release.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/authbird/client-sdk/actions/workflows/release.yml)
+
 </div>
 
 # AuthBird Client SDK
