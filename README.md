@@ -26,7 +26,7 @@ Before you can use this SDK, you need to create an account on [authbird.com](htt
 
 Please check out the detailed [docs](https://docs.authbird.com).
 
-## Installation
+## 1. Installation
 
 ```shell
 npm install @authbird/client-sdk
@@ -52,7 +52,7 @@ jsDelivr.com
 
 After the package is installed, the library can be imported using import or require approach:
 
-### Import the SDK
+### 2. Import the SDK
 
 ```javascript
 const authbird = require('@authbird/client-sdk');
